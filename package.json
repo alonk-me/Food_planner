@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alonk-me.github.io/Food_planner/
   "name": "zvdjzg--run",
   "version": "0.0.0",
   "private": true,
@@ -8,4 +9,9 @@
     "@material-ui/icons": "4.9.1",
     "react-dom": "16.13.1"
   }
+"scripts": {
+//...
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
 }
