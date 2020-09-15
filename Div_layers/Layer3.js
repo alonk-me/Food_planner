@@ -1,5 +1,5 @@
 import React from 'react';
-import Demo from './Lunch_options';
+import Demo from '../Food_options/Lunch_options';
 
 
 export default function lunchtime() {
